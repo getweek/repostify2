@@ -29,14 +29,14 @@ export default function DownloadPage() {
                 <div className="space-y-10 flex-1 text-center lg:text-left">
                   <div>
                     <h2 className="text-4xl md:text-5xl font-black tracking-tight mb-4">Repostify Mobile</h2>
-                    <p className="text-slate-400">Current version 1.0.0 • Size 15.4MB</p>
+                    <p className="text-slate-400">Current version 1.0.0 • Size 204MB</p>
                   </div>
 
                   <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
-                    <button className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white px-12 py-5 rounded-2xl text-lg font-bold transition-all flex items-center justify-center gap-3">
+                    <a href="https://github.com/getweek/repostify2/releases/download/v1.0/Repostify-v1.0.apk" download className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white px-12 py-5 rounded-2xl text-lg font-bold transition-all flex items-center justify-center gap-3 cursor-pointer">
                       <Download className="w-5 h-5" />
                       Download APK
-                    </button>
+                    </a>
                     <div className="w-full sm:w-auto opacity-30 grayscale pointer-events-none">
                       <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" className="h-10" />
                     </div>
