@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Download from './pages/Download';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Terms from './pages/Terms';
+import DMCA from './pages/DMCA';
 import Features from './pages/Features';
 import Contact from './pages/Contact';
 
@@ -19,6 +20,7 @@ export default function App() {
             <Route path="/download" element={<Download />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms" element={<Terms />} />
+            <Route path="/dmca" element={<DMCA />} />
             <Route path="/features" element={<Features />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

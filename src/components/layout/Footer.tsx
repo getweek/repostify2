@@ -35,11 +35,12 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-sm font-bold uppercase tracking-widest text-gray-400 mb-6">Company</h4>
+            <h4 className="text-sm font-bold uppercase tracking-widest text-gray-400 mb-6">Legal</h4>
             <ul className="space-y-4">
-              <li><Link to="/contact" className="text-gray-500 hover:text-blue-400 transition-colors text-sm">Contact</Link></li>
               <li><Link to="/privacy-policy" className="text-gray-500 hover:text-blue-400 transition-colors text-sm">Privacy Policy</Link></li>
               <li><Link to="/terms" className="text-gray-500 hover:text-blue-400 transition-colors text-sm">Terms of Service</Link></li>
+              <li><Link to="/dmca" className="text-gray-500 hover:text-blue-400 transition-colors text-sm">DMCA/Copyright</Link></li>
+              <li><Link to="/contact" className="text-gray-500 hover:text-blue-400 transition-colors text-sm">Contact Us</Link></li>
             </ul>
           </div>
 
@@ -48,7 +49,10 @@ export function Footer() {
             <div className="space-y-4">
               <p className="text-gray-500 text-sm flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                support@repostify.com
+                support@repostify.xyz
+              </p>
+              <p className="text-gray-500 text-sm">
+                DMCA: dmca@repostify.xyz
               </p>
               <div className="bg-white/5 border border-white/10 rounded-xl p-4">
                 <p className="text-xs text-gray-400 leading-relaxed italic">
@@ -66,6 +70,7 @@ export function Footer() {
           <div className="flex items-center gap-6">
             <Link to="/privacy-policy" className="text-gray-600 hover:text-white transition-colors text-xs">Privacy</Link>
             <Link to="/terms" className="text-gray-600 hover:text-white transition-colors text-xs">Terms</Link>
+            <Link to="/dmca" className="text-gray-600 hover:text-white transition-colors text-xs">DMCA</Link>
           </div>
         </div>
       </div>

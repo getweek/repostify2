@@ -20,6 +20,7 @@ export function Navbar() {
     { name: 'Features', path: '/features' },
     { name: 'Download', path: '/download' },
     { name: 'Contact', path: '/contact' },
+    { name: 'Legal', path: '/privacy-policy' },
   ];
 
   return (

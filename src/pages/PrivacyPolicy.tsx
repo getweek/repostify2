@@ -40,39 +40,55 @@ export default function PrivacyPolicy() {
       ]
     },
     {
-      title: "6. Data Sharing & Third Parties",
+      title: "6. Third-Party Services",
+      content: "Repostify integrates with the following third-party services to provide core functionality:",
+      items: [
+        { label: "Google OAuth 2.0", desc: "Used for secure user authentication. Google manages the OAuth flow and token storage. Subject to Google's Privacy Policy and Terms of Service." },
+        { label: "YouTube Data API", desc: "Used to upload videos and access channel information. All API calls are made directly from your device to YouTube's servers. Subject to YouTube's Terms of Service and Google API Services User Data Policy." },
+        { label: "Google Play Services", desc: "Used for authentication token management on Android devices. Subject to Google's Terms of Service." }
+      ]
+    },
+    {
+      title: "7. Data Sharing & Third Parties",
       items: [
         { desc: "We do NOT sell, share, rent, or trade your personal data with any third parties" },
         { desc: "We do NOT use your data for advertising, marketing, or profiling purposes" },
         { desc: "We do NOT use your data to train machine learning or artificial intelligence models" },
         { desc: "Your data is used exclusively to provide the app's user-facing features directly to you" },
+        { desc: "We only share data with Google/YouTube APIs as required for the app's core functionality" },
       ]
     },
     {
-      title: "7. Data Retention & Deletion",
+      title: "8. Data Retention & Deletion",
       items: [
         { desc: "Your data is stored on your device only while the app is installed" },
-        { desc: "Uninstalling the app removes all locally stored data" },
+        { desc: "Uninstalling the app removes all locally stored data immediately" },
         { desc: "You can revoke YouTube access at any time via your Google Account settings at myaccount.google.com → Security → Third-party apps with account access" },
-        { desc: "You may contact us at any time to request guidance on data deletion" },
+        { desc: "Contact us for guidance on data deletion: support@repostify.xyz" },
       ]
     },
     {
-      title: "8. Your Rights",
+      title: "9. Your Rights (GDPR, CCPA, etc.)",
       items: [
-        { desc: "Access and review any data the app stores about you" },
-        { desc: "Revoke OAuth permissions at any time via Google Account Settings" },
-        { desc: "Delete all app data by uninstalling the application or clearing app data" },
-        { desc: "Contact us for any data-related inquiries or concerns" },
+        { label: "Access", desc: "Request a copy of any data the app stores about you" },
+        { label: "Deletion", desc: "Request complete deletion of your data (uninstall app or clear data)" },
+        { label: "Rectification", desc: "Update or correct any information within the app settings" },
+        { label: "Portability", desc: "Export your scheduled uploads list from the app" },
+        { label: "Consent Withdrawal", desc: "Revoke OAuth permissions at any time via Google Account Settings" },
+        { label: "Complaint", desc: "File a complaint with your local data protection authority if needed" },
       ]
     },
     {
-      title: "9. Changes to This Policy",
+      title: "10. Children's Privacy (COPPA Compliance)",
+      content: "Repostify is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information without your consent, please contact us immediately at support@repostify.xyz. Upon notification, we will promptly delete such information from our records. By using Repostify, you confirm that you are at least 13 years old."
+    },
+    {
+      title: "11. Changes to This Policy",
       content: "If we make changes to how we access, use, or share your Google user data, we will update this Privacy Policy and notify users through the app before implementing any changes. Continued use of the app after updates constitutes acceptance of the revised policy."
     },
     {
-      title: "10. Contact Us",
-      content: "For questions or concerns about this Privacy Policy or our data practices:\n\nEmail: support@repostify.com\nResponse time: Within 24–48 hours"
+      title: "12. Contact Us",
+      content: "For questions or concerns about this Privacy Policy or our data practices:\n\nEmail: support@repostify.xyz\nDMCA/Copyright: dmca@repostify.xyz\n\nResponse time: Within 24–48 hours"
     }
   ];
 

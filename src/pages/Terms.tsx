@@ -34,28 +34,48 @@ export default function Terms() {
       ]
     },
     {
-      title: "6. Content Responsibility",
-      content: "Repostify is a tool that facilitates uploading to YouTube. We do not review, endorse, or take responsibility for any content uploaded through the app. You are solely liable for ensuring your content complies with all applicable laws, YouTube's Terms of Service, and third-party intellectual property rights."
+      title: "6. Content Ownership",
+      content: "You retain 100% ownership of all content you upload through Repostify. We do not claim any rights, title, or interest in your content. By using our service, you grant us only the necessary permissions to facilitate the upload process to your YouTube channel via the YouTube API. We do not host, store, or distribute your content on any servers owned or operated by us."
     },
     {
-      title: "7. YouTube API Terms",
+      title: "7. Acceptable Use Policy",
+      items: [
+        "You may only upload content that you own or have explicit permission to use",
+        "You may not use Repostify to infringe any third-party copyrights, trademarks, or other intellectual property rights",
+        "You may not upload illegal content, hate speech, harassment, or harmful material",
+        "You may not use the app to circumvent YouTube's rate limits or abuse the YouTube API",
+        "You may not use the app for automated spam, bulk uploads that violate YouTube's policies, or deceptive practices",
+        "You may not resell, redistribute, or commercially exploit the app without authorization",
+        "You are responsible for all activity that occurs through your connected YouTube accounts"
+      ]
+    },
+    {
+      title: "8. Content Responsibility",
+      content: "Repostify is a tool that facilitates uploading to YouTube. We do not review, endorse, or take responsibility for any content uploaded through the app. You are solely liable for ensuring your content complies with all applicable laws, YouTube's Terms of Service, and third-party intellectual property rights. Any copyright claims, DMCA notices, or legal disputes regarding uploaded content are solely between you and the claimant."
+    },
+    {
+      title: "9. YouTube API Terms",
       content: "By using Repostify, you also agree to be bound by the YouTube Terms of Service (https://www.youtube.com/t/terms) and Google's Privacy Policy (https://policies.google.com/privacy). Repostify's use of YouTube API Services is subject to the Google API Services User Data Policy."
     },
     {
-      title: "8. Limitation of Liability",
+      title: "10. Limitation of Liability",
       content: "Repostify is provided \"as is\" without warranty of any kind, express or implied. We are not liable for any actions taken by YouTube or Google on your account, any data loss resulting from device issues, any content-related disputes or copyright claims, or any interruptions in YouTube API availability."
     },
     {
-      title: "9. Termination",
-      content: "You may stop using Repostify at any time by uninstalling the app and revoking OAuth access via your Google Account settings. We reserve the right to modify, suspend, or discontinue the application at any time."
+      title: "11. Termination",
+      content: "You may stop using Repostify at any time by uninstalling the app and revoking OAuth access via your Google Account settings. We reserve the right to modify, suspend, or discontinue the application at any time. We may also terminate or suspend your access if you violate these Terms."
     },
     {
-      title: "10. Changes to Terms",
-      content: "We may update these Terms of Service from time to time. Any changes will be reflected on this page with an updated effective date. Continued use of Repostify after changes constitutes acceptance of the modified terms."
+      title: "12. Governing Law",
+      content: "These Terms shall be governed by and construed in accordance with the laws applicable in your jurisdiction, without regard to its conflict of law provisions. Any disputes arising under these Terms shall be resolved in the competent courts of your jurisdiction."
     },
     {
-      title: "11. Contact Information",
-      content: "For questions regarding these terms, contact us at:\n\nEmail: support@repostify.com"
+      title: "13. Changes to Terms",
+      content: "We may update these Terms of Service from time to time. Any changes will be reflected on this page with an updated effective date. Continued use of Repostify after changes constitutes acceptance of the modified terms. We will notify users of significant changes through the app."
+    },
+    {
+      title: "14. Contact Information",
+      content: "For questions regarding these terms, contact us at:\n\nEmail: support@repostify.xyz\nDMCA/Copyright: dmca@repostify.xyz\n\nWe aim to respond to all inquiries within 24-48 hours."
     }
   ];
 

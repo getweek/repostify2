@@ -85,11 +85,11 @@ export default function Home() {
                 v1.0.0 Now Available
               </div>
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-white leading-[1.05] tracking-tight">
-                YouTube Uploads, <br className="hidden sm:block" />
-                <span className="text-blue-500">Automated.</span>
+                YouTube Content <br className="hidden sm:block" />
+                <span className="text-blue-500">Scheduler.</span>
               </h1>
               <p className="text-lg text-slate-400 leading-relaxed max-w-md">
-                Schedule and manage video uploads to your YouTube channel from your Android device. Fully on-device — no servers required.
+                Schedule and manage video uploads to your YouTube channel from your Android device. Your personal upload assistant — 100% on-device, completely private.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link 
@@ -162,6 +162,36 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Trust Badges */}
+      <div className="w-full bg-slate-950 border-y border-white/5 px-6 md:px-12 py-8">
+        <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-center gap-8 md:gap-16">
+          <div className="flex items-center gap-2 text-sm text-slate-400">
+            <svg className="w-5 h-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
+            <span>Google OAuth Verified</span>
+          </div>
+          <div className="flex items-center gap-2 text-sm text-slate-400">
+            <svg className="w-5 h-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+            </svg>
+            <span>100% On-Device</span>
+          </div>
+          <div className="flex items-center gap-2 text-sm text-slate-400">
+            <svg className="w-5 h-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>No Data Collection</span>
+          </div>
+          <div className="flex items-center gap-2 text-sm text-slate-400">
+            <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 24 24">
+              <path fillRule="evenodd" clipRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+            </svg>
+            <span>Open Source</span>
+          </div>
+        </div>
+      </div>
 
       {/* Feature Bar */}
       <div className="w-full bg-slate-900/40 backdrop-blur-sm border-t border-white/5 px-6 md:px-12 py-12 mt-auto">
@@ -262,6 +292,59 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-24 px-6 bg-slate-950">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-blue-500 text-sm font-bold uppercase tracking-[0.3em] mb-4">FAQ</h2>
+            <h3 className="text-3xl md:text-5xl font-black text-white">Frequently Asked Questions</h3>
+          </div>
+
+          <div className="space-y-4">
+            {[
+              {
+                q: "Is Repostify free?",
+                a: "Yes, Repostify is completely free to use. There are no hidden charges, subscriptions, or in-app purchases. We believe in providing value to creators without barriers."
+              },
+              {
+                q: "How does on-device processing work?",
+                a: "Unlike cloud-based tools, Repostify processes everything directly on your phone. Your videos never leave your device until they're uploaded directly to YouTube. This means your data stays private and you maintain complete control."
+              },
+              {
+                q: "Is my YouTube account safe?",
+                a: "Absolutely. We use Google's official OAuth 2.0 authentication system - the same secure method used by thousands of apps. We never see or store your password. You can revoke access anytime from your Google Account settings."
+              },
+              {
+                q: "What Android version do I need?",
+                a: "Repostify requires Android 8.0 (API level 26) or higher. This covers most modern Android devices. For the best experience, we recommend Android 10 or later."
+              },
+              {
+                q: "Can I schedule shorts and livestreams?",
+                a: "Currently, Repostify supports scheduling regular video uploads. YouTube Shorts and livestream scheduling may be added in future updates based on user demand."
+              },
+              {
+                q: "How do I report a bug or get support?",
+                a: "You can reach our support team at support@repostify.xyz. We typically respond within 24-48 hours. You can also report issues on our GitHub repository."
+              }
+            ].map((faq, idx) => (
+              <div key={idx} className="bg-slate-900/50 border border-white/5 rounded-2xl p-6 hover:bg-slate-900/70 transition-all">
+                <h4 className="text-lg font-bold text-white mb-3">{faq.q}</h4>
+                <p className="text-slate-400 leading-relaxed">{faq.a}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center mt-12">
+            <p className="text-slate-500">
+              Still have questions?{' '}
+              <Link to="/contact" className="text-blue-400 hover:text-blue-300 transition-colors">
+                Contact our support team
+              </Link>
+            </p>
           </div>
         </div>
       </section>
